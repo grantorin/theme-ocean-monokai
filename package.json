@@ -1,0 +1,46 @@
+{
+    "name": "theme-ocean-monokai",
+    "displayName": "Ocean Monokai",
+    "description": "VS Code Theme Ocean-Monokai",
+    "version": "0.0.3",
+    "publisher": "grantorino-publisher",
+    "icon": "images/logo.png",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "VSCode",
+        "Themes",
+        "Sublime",
+        "Sublime Text",
+        "theme"
+    ],
+    "galleryBanner": {
+        "color": "#002b36",
+        "theme": "dark"
+    },
+    "homepage": "https://github.com/grantorin/theme-ocean-monokai.git",
+    "bugs": {
+        "url": "https://github.com/grantorin/theme-ocean-monokai/issues"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ocean Monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/theme-ocean-monokai-color-theme.json"
+            }
+        ]
+    },
+    "scripts": {
+        "build": "vsce package"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/grantorin/theme-ocean-monokai.git"
+    },
+    "license": "SEE LICENSE IN LICENSE"
+}
